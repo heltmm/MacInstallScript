@@ -21,3 +21,9 @@ curl -o ~/install_files/Fusion360.dmg https://dl.appstreaming.autodesk.com/produ
 curl -o ~/install_files/Chrome.dmg https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
 
 Curl -o ~/install_files/Arduino
+
+
+temp fix for inkscape, branched version with x11 commented out:
+
+brew tap wwwvalpe/homebrew-caskformula 
+$ brew install wwwvalpe/homebrew-caskformula/inkscape --HEAD --branch-0.92
